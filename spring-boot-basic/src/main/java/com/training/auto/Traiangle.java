@@ -1,0 +1,15 @@
+package com.training.auto;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Traiangle implements IShape{
+
+	@Override
+	public void calcArea(int length, int breadth) {
+		
+		System.out.println("Traiangle "+(0.5*length * breadth));
+		
+	}
+
+}
